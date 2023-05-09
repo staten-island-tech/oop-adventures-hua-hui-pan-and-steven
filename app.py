@@ -1,7 +1,7 @@
 import uuid
 class user:
-    def __init__(self,name):
-     self.name=name
+   def __init__(self,name):
+      self.name=name
 
 class swordsmaster(user):
    def __init__(self,name,sword):
