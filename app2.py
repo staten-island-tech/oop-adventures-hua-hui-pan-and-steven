@@ -56,19 +56,19 @@ class axe:
     def __init__(self, beserker):
         self.beserker = beserker
 
-class silver_staff(axe):
+class silver_axe(axe):
     def __init__(self, beserker, silver_axe):
         super().__init__(beserker)
         self.silver_axe = silver_axe
     def __str__(self):
         return f"{self.beserker}, {self.silver_axe}"
-class gold_staff(axe):
+class gold_axe(axe):
     def __init__(self, beserker, gold_axe):
         super().__init__(beserker)
         self.gold_axe = gold_axe
     def __str__(self):
         return f"{self.beserker}, {self.gold_axe}"
-class diamond_staff(axe):
+class diamond_axe(axe):
     def __init__(self, beserker, diamond_axe):
         super().__init__(beserker)
         self.diamond_axe = diamond_axe
