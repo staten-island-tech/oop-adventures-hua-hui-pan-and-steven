@@ -14,12 +14,15 @@ class shadow_golem(mobs):
     def __init__(self,name,attack,shadowslash,shadowbomb):
           super().__init__(name,attack,shadowslash)
           self.shadowbomb=shadowbomb
+          self.shadowslash=shadowslash
     def __str__(self):
           return f"{self.name},{self.attack},{self.shadowslash},{self.shadowbomb}"
 class shadow_giants(mobs):
     def __init__(self,name,attack,shadowslash,shadowbomb,shadowslam):
           super().__init__(self,name,attack,shadowslash,shadowbomb)
           self.shadowslam=shadowslam
+          self.shadowbomb=shadowbomb
+          self.shadowslash=shadowslash
     def __str__(self):
           return f"{self.name},{self.attack},{self.shadowslash}{self.shadowbomb},{self.shadowslam}"
     
