@@ -5,23 +5,30 @@ class sword:
         self.swordsmaster = swordsmaster
 
 class silver_sword(sword):
-    def __init__(self, swordsmaster, silver_sword, silver_slash):
-        super().__init__(swordsmaster)
+    def __init__(self, swordsmaster, silver_sword, attack, silver_slash):
+        super().__init__(swordsmaster, attack, silver_slash)
         self.silver_sword = silver_sword
+        self.silver_slash = silver_slash
     def __str__(self):
-        return f"{self.swordsmaster}, {self.silver_sword}"
+        return f"{self.swordsmaster}, {self.silver_sword}, {self.silver_slash}"
 class gold_sword(sword): 
-    def __init__(self, swordsmaster, gold_sword, gold_slash):
-        super().__init__(swordsmaster)
+    def __init__(self, swordsmaster, gold_sword, attack, gold_slash):
+        super().__init__(swordsmaster, attack, gold_slash)
         self.gold_sword = gold_sword
+        self.gold_slash = gold_slash
     def __str__(self):
-        return f"{self.swordsmaster}, {self.gold_sword}"
+        return f"{self.swordsmaster}, {self.gold_sword}, {self.gold_slash}"
 class diamond_sword(sword):
-    def __init__(self, swordsmaster, diamond_sword, diamond_slash):
-        super().__init__(swordsmaster)
+    def __init__(self, swordsmaster, diamond_sword, attack, diamond_slash):
+        super().__init__(swordsmaster, attack, diamond_slash)
         self.diamond_sword = diamond_sword
+        self.diamond_slash = diamond_slash
     def __str__(self):
         return f"{self.swordsmaster}, {self.diamond_sword}, {self.diamond_slash}"
+
+silver_slash = 10
+gold_slash = 15
+diamond_slash = 25
 
 
 
