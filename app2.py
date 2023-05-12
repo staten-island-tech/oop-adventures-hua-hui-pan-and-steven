@@ -95,3 +95,5 @@ class diamond_axe(axe):
 silver_smash = 20
 gold_smash = 30
 diamond_smash = 50
+
+
