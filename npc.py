@@ -26,6 +26,15 @@ class shadow_giants(mobs):
     def __str__(self):
           return f"{self.name},{self.attack},{self.shadowslash}{self.shadowbomb},{self.shadowslam}"
 
+shadowslash_attack= 10
+shadowbomb_attack= 25
+shadowslam_attack= 40
+
+Hp=50
+Hp=100
+Hp=150
+
+
 
 
 class bosses:
@@ -34,41 +43,37 @@ class bosses:
           self.attack = attack
 
 class shadow_general(bosses):
-    def __init__(self, name, attack, shadow_summon, shadow_pierce, shadow_blast):
+    def __init__(self, name, attack, shadow_pierce, shadow_blast):
           super().__init__(name, attack)
-          self.shadow_summon = shadow_summon
           self.shadow_pierce = shadow_pierce
           self.shadow_blast = shadow_blast
     def __str__(self):
-        return f"{self.name},{self.attack},{self.shadow_summon},{self.shadow_pierce},{self.shadow_blast}"
+        return f"{self.name},{self.attack},{self.shadow_pierce},{self.shadow_blast}"
 class shadow_guardian(bosses):
-    def __init__(self, name, attack, shadow_summon, shadow_block, shadow_javalin):
+    def __init__(self, name, attack, shadow_shield_smash, shadow_javalin):
           super().__init__(name, attack)
-          self.shadow_summon = shadow_summon
-          self.shadow_block = shadow_block
+          self.shadow_shield_smash = shadow_shield_smash
           self.shadow_javalin = shadow_javalin
     def __str__(self):
-         return f"{self.name},{self.attack},{self.shadow_summon},{self.shadow_block},{self.shadow_javalin}"
+         return f"{self.name},{self.attack},{self.shadow_shield_smash},{self.shadow_javalin}"
 class shadow_king(bosses):
-    def __init__(self, name, attack, shadow_summon, shadow_hurricane, shadow_blast, shadow_metheor):
+    def __init__(self, name, attack, shadow_hurricane, shadow_blast, shadow_metheor):
           super().__init__(name, attack)
-          self.shadow_summon = shadow_summon
           self.shadow_hurricane = shadow_hurricane
           self.shadow_blast = shadow_blast
           self.shadow_metheor = shadow_metheor
     def __str__(self):
-         return f"{self.name},{self.attack},{self.shadow_summon},{self.shadow_hurricane},{self.shadow_blast},{self.shadow_metheor}"
+         return f"{self.name},{self.attack},{self.shadow_hurricane},{self.shadow_blast},{self.shadow_metheor}"
+
+shadow_pierce = 25
+shadow_blast = 30
+shadow_shield_smash = 35
+shadow_javalin = 40
+shadow_hurricane = 40
+shadow_metheor = 50
 
 
 
-
-shadowslash_attack= 10
-shadowbomb_attack= 25
-shadowslam_attack= 40
-
-Hp=50
-Hp=100
-Hp=150
 
      
 
