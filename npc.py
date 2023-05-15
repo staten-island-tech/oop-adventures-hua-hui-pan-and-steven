@@ -25,7 +25,43 @@ class shadow_giants(mobs):
           self.shadowslash=shadowslash
     def __str__(self):
           return f"{self.name},{self.attack},{self.shadowslash}{self.shadowbomb},{self.shadowslam}"
-    
+
+
+
+class bosses:
+     def __init__(self, name, attack):
+          self.name = name
+          self.attack = attack
+
+class shadow_general(bosses):
+    def __init__(self, name, attack, shadow_summon, shadow_pierce, shadow_blast):
+          super().__init__(name, attack)
+          self.shadow_summon = shadow_summon
+          self.shadow_pierce = shadow_pierce
+          self.shadow_blast = shadow_blast
+    def __str__(self):
+        return f"{self.name},{self.attack},{self.shadow_summon},{self.shadow_pierce},{self.shadow_blast}"
+class shadow_guardian(bosses):
+    def __init__(self, name, attack, shadow_summon, shadow_block, shadow_javalin):
+          super().__init__(name, attack)
+          self.shadow_summon = shadow_summon
+          self.shadow_block = shadow_block
+          self.shadow_javalin = shadow_javalin
+    def __str__(self):
+         return f"{self.name},{self.attack},{self.shadow_summon},{self.shadow_block},{self.shadow_javalin}"
+class shadow_king(bosses):
+    def __init__(self, name, attack, shadow_summon, shadow_hurricane, shadow_blast, shadow_metheor):
+          super().__init__(name, attack)
+          self.shadow_summon = shadow_summon
+          self.shadow_hurricane = shadow_hurricane
+          self.shadow_blast = shadow_blast
+          self.shadow_metheor = shadow_metheor
+    def __str__(self):
+         return f"{self.name},{self.attack},{self.shadow_summon},{self.shadow_hurricane},{self.shadow_blast},{self.shadow_metheor}"
+
+
+
+
 shadowslash_attack= 10
 shadowbomb_attack= 25
 shadowslam_attack= 40
