@@ -3,19 +3,19 @@ class user:
    def __init__(self,name):
       self.name=name
 
-class swordsmaster(user):
+class Swordsmaster(user):
    def __init__(self,name,sword):
       super().__init__(name)
       self.sword= sword
    def __str__(self):
          return f"{self.name}, {self.sword}"
-class mage(user):
+class Mage(user):
    def __init__(self,name,staff):
       super().__init__(name)
       self.staff=staff
    def __str__(self):
       return f"{self.name}, {self.staff}"
-class beserker(user):
+class Beserker(user):
    def __init__(self,name,axe):
       super().__init__(name)
       self.axe=axe
@@ -64,9 +64,32 @@ beserkers=[]
 
 def create_new_swordsmaster(name,sword):
     id = str(uuid.uuid4())
-    new_swordsmaster= swordsmaster(name,sword)
+    new_swordsmaster= Swordsmaster(name,sword)
     swordsmasters.append(new_swordsmaster)
-    for swordsmater in swordsmasters:
+    for swordsmaster in swordsmasters:
         print(swordsmaster)
+
+def create_new_mage(name,staff):
+    id= str(uuid.uuid4())
+    new_mage= Mage(name,staff)
+    mages.append(new_mage)
+    for mage in mages:
+        print(mage)
+
+def create_new_beserker(name,axe):
+    id=str(uuid.uuid4())
+    new_beserker=Beserker(name,axe)
+    beserkers.append(new_beserker)
+    for beserker in beserkers:
+        print(beserker)
+
+add_more_users= "y"
+while add_more_users=="y":
+    user_request = input("What type of user do you want to add? Ex. swordsmaster, mage, OR beserker? ")
+    if use
+
+
+        
+
     
 
