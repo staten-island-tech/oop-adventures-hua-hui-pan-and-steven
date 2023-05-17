@@ -47,7 +47,7 @@ class shadow_general(bosses):
           super().__init__(name, attack)
           self.shadow_pierce = shadow_pierce
     def __str__(self):
-        return f"{self.name},{self.attack},{self.shadow_pierce},{self.shadow_blast}"
+        return f"{self.name},{self.attack},{self.shadow_pierce}"
 class shadow_guardian(bosses):
     def __init__(self, name, attack, shadow_shield_smash):
           super().__init__(name, attack)
@@ -65,9 +65,11 @@ class shadow_king(bosses):
 shadow_pierce = 25
 shadow_blast = 30
 shadow_shield_smash = 35
-shadow_javalin = 40
-shadow_hurricane = 40
 shadow_metheor = 50
+
+
+
+
 
 
 
