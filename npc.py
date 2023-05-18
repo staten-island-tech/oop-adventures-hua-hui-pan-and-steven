@@ -31,11 +31,8 @@ shadowbomb_attack= 25
 shadowslam_attack= 40
 
 Hp=50
+Hp=75
 Hp=100
-Hp=150
-
-
-
 
 class bosses:
      def __init__(self, name, attack):
@@ -64,15 +61,20 @@ class shadow_king(bosses):
           self.shadow_metheor = shadow_metheor
     def __str__(self):
          return f"{self.name},{self.attack},{self.shadow_hurricane},{self.shadow_blast},{self.shadow_metheor}"
+Hp=125
+Hp=150
+Hp=180
 
 shadow_pierce = 25
 shadow_blast = 30
 shadow_shield_smash = 35
 shadow_javalin = 40
 shadow_hurricane = 40
-shadow_metheor = 50
+shadow_metheor= 50
 
-
+def mobs(shadow_soldier,shadow_golem,shadow_giants):
+     if mobs== shadow_soldier:
+          print("shadow_slash:10")
 
 
      
