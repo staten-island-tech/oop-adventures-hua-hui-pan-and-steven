@@ -22,39 +22,16 @@ class beserker(user):
    def __str__(self):
       return f"{self.name}, {self.axe}"
    
+for i in user:
+   if user == swordsmaster:
+      print("Play as swordsmaster")
+   elif user == mage:
+      print("Play as mage")
+   elif user == beserker:
+      print("Play as beserker")
+   else:
+      print("Did you even select a hero?")
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
