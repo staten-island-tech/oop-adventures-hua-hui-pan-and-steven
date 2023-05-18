@@ -1,15 +1,12 @@
 import uuid
 
 
-users = []
 
 class user:
     def __init__(self, name):
         self.name = name
 
-
-
-class swordsmaster(users):
+class swordsmaster(user):
    def __init__(self,name,sword):
       super().__init__(name)
       self.sword= sword
@@ -27,8 +24,9 @@ class beserker(user):
       self.axe=axe
    def __str__(self):
       return f"{self.name}, {self.axe}"
-   
-for users in user :
+
+
+def user(swordsmaster, mage, beserker):
    if user == swordsmaster:
       print("Play as swordsmaster")
    elif user == mage:
@@ -37,6 +35,7 @@ for users in user :
       print("Play as beserker")
    else:
       print("Did you even select a hero?")
+
 
 
 
