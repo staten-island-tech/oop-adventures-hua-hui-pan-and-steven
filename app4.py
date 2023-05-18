@@ -3,6 +3,8 @@ class user:
     def __init__(self, name):
         self.name = name
 
+user = []
+
 class swordsmaster(user):
    def __init__(self,name,sword):
       super().__init__(name)
@@ -22,7 +24,7 @@ class beserker(user):
    def __str__(self):
       return f"{self.name}, {self.axe}"
    
-for i in user:
+if :
    if user == swordsmaster:
       print("Play as swordsmaster")
    elif user == mage:
