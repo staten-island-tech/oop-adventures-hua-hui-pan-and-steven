@@ -120,8 +120,6 @@ gold_smash = 30
 diamond_smash = 50
 
 
-
-
 def user(swordsmaster, mage, beserker):
    if user == swordsmaster:
       print("Play as swordsmaster")
@@ -134,9 +132,3 @@ def user(swordsmaster, mage, beserker):
       print("You get silver axe!")
    else:
       print("Did you even select a hero?")
-
-
-
-
-
-
