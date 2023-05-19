@@ -23,7 +23,6 @@ class Beserker(user):
    def __str__(self):
       return f"{self.name},{self.id}, {self.axe}"
 
-
 swordsmasters=[]
 mages=[]
 beserkers=[]
@@ -147,7 +146,9 @@ shadow_javalin = 40
 shadow_hurricane = 40
 shadow_metheor = 50   
 
-
+def get_input():
+    attack=""
+    while not attack in[{10},shadowslash_attack,{15},shadowbomb_attack,{25},shadowslam_attack,{25},shadow_pierce,{}                        ]
 
         
 
