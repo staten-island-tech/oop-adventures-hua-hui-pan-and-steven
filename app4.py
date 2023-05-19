@@ -29,10 +29,13 @@ class beserker(user):
 def user(swordsmaster, mage, beserker):
    if user == swordsmaster:
       print("Play as swordsmaster")
+      print("You get silver sowrd!")
    elif user == mage:
       print("Play as mage")
+      print("You get silver staff!")
    elif user == beserker:
       print("Play as beserker")
+      print("You get silver axe!")
    else:
       print("Did you even select a hero?")
 
