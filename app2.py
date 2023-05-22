@@ -27,8 +27,8 @@ class diamond_sword(sword):
         return f"{self.swordsmaster}, {self.diamond_sword}, {self.diamond_slash}"
 
 silver_slash = 10
-gold_slash = 15
-diamond_slash = 25
+gold_slash = 20
+diamond_slash = 45
 
 
 
@@ -59,9 +59,9 @@ class diamond_staff(staff):
     def __str__(self):
         return f"{self.mage}, {self.diamond_staff}, {self.diamond_shot}"
     
-silver_shot = 5
-gold_shot = 10
-diamond_shot = 20
+silver_shot = 10
+gold_shot = 20
+diamond_shot = 45
 
 
 
@@ -93,7 +93,7 @@ class diamond_axe(axe):
         return f"{self.beserker}, {self.diamond_axe}, {self.diamond_smash}"
     
 silver_smash = 20
-gold_smash = 30
+gold_smash = 35
 diamond_smash = 50
 
 
