@@ -193,16 +193,6 @@ gold_smash = 30
 diamond_smash = 50
 
 
-class area:
-    def __init__(self,name):
-        self.name = name
-
-class shadow_castle(area):
-    def __init__(self, name, location):
-        super().__init__(name)
-        self.location = location
-    def __str__(self):
-        return f"{self.name}, {self.location}"
 
 
 
