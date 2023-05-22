@@ -8,3 +8,4 @@ class shadow_castle(area):
         self.location = location
     def __str__(self):
         return f"{self.name}, {self.location}"
+    
