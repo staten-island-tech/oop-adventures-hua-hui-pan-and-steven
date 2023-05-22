@@ -95,18 +95,7 @@ shadow_blast = 30
 shadow_shield_smash = 35
 shadow_metheor = 50
 
-def user(swordsmaster, mage, beserker):
-   if user == swordsmaster:
-      print("Play as swordsmaster")
-      print("You get silver sowrd!")
-   elif user == mage:
-      print("Play as mage")
-      print("You get silver staff!")
-   elif user == beserker:
-      print("Play as beserker")
-      print("You get silver axe!")
-   else:
-      print("Did you even select a hero?")
+
 
 
 
@@ -204,6 +193,28 @@ gold_smash = 30
 diamond_smash = 50
 
 
+
+
+
+
+
+
+
+print("Start the adventure!")
+
+def user(swordsmaster, mage, beserker):
+   if user == swordsmaster:
+      print("Play as swordsmaster")
+      print("You get silver sowrd!")
+   elif user == mage:
+      print("Play as mage")
+      print("You get silver staff!")
+   elif user == beserker:
+      print("Play as beserker")
+      print("You get silver axe!")
+   else:
+      print("Did you even select a hero?")
+
 def get_input():
     attack=""
     while attack in [shadowslash_attack, shadowbomb_attack, shadowslam_attack, shadow_pierce, shadow_blast, shadow_shield_smash, shadow_metheor]:
@@ -213,3 +224,11 @@ def get_input():
             print("shadowbomb_attack -25 hp")
         if attack == shadowslam_attack:
             print("shadowslam_attack -40 hp")
+        if attack == shadow_pierce:
+            print("shadow_pierce -25 hp")
+        if attack == shadow_blast:
+            print("shadow_blast -30 hp")
+        if attack == shadow_shield_smash:
+            print("shadow_shield_smash -35 hp")
+        if attack == shadow_metheor:
+            print("shadow_metheor -50 hp")
