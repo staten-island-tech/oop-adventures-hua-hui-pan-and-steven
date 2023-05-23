@@ -199,6 +199,10 @@ diamond_smash = 50
 
 
 
+
+
+
+
 print("Start the adventure!")
 
 def user(swordsmaster, mage, beserker):
@@ -232,3 +236,26 @@ def get_input():
         if attack == shadow_metheor:
             print("shadow_metheor -50 hp")
 
+
+
+def get_input(swordsmaster):
+    attack=""
+    while attack in [silver_slash, gold_slash, diamond_slash]:
+        if attack == silver_slash:
+            print("silver_slash -10 hp enemy")
+        if attack == gold_slash:
+            print("gold_slash -20 hp enemy")
+        if attack == diamond_slash:
+            print("diamond_slash -45 hp enemy")
+
+
+
+def get_input(mage):
+    attack=""
+    while attack in [silver_shot, gold_shot, diamond_shot]:
+        if attack == silver_shot:
+            print("silver_shot -10 hp enemy")
+        if attack == gold_shot:
+            print("gold_shot -20 hp enemy")
+        if attack == diamond_shot:
+            print("diamond_shot -45 hp enemy")
