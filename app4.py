@@ -259,3 +259,15 @@ def get_input(mage):
             print("gold_shot -20 hp enemy")
         if attack == diamond_shot:
             print("diamond_shot -45 hp enemy")
+
+
+
+def get_input(beserker):
+    attack=""
+    while attack in [silver_smash, gold_smash, diamond_smash]:
+        if attack == silver_smash:
+            print("silver_shot -20 hp enemy")
+        if attack == gold_smash:
+            print("gold_smash -35 hp enemy")
+        if attack == diamond_smash:
+            print("diamond_smash -50 hp enemy")
