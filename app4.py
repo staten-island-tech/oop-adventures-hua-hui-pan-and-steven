@@ -202,6 +202,11 @@ diamond_smash = 50
 
 
 
+import Game
+
+start = Game
+get_input()
+
 
 print("Start the adventure!")
 
