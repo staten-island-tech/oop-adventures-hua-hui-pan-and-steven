@@ -51,7 +51,7 @@ def create_new_beserker(name,axe):
 no_more_users="n"
 add_more_users= "y"
 while add_more_users=="y":
-    user_request = input("What type of user do you want to add? Ex. swordsmaster, mage, OR beserker? ")
+    user_request = input("What type of user do you want to add? swordsmaster, mage, OR beserker? ")
     if user_request.upper()=="swordsmaster":
         name=input("enter name")
         sword=input("what type of sword")
@@ -67,6 +67,7 @@ while add_more_users=="y":
         print("something went wrong")
     still_continue=input("would you like to add more characters y/n").upper()
     add_more_users= still_continue
+
 while no_more_users=="n":
     if still_continue=="n":
         print("welcome to your new adventure")

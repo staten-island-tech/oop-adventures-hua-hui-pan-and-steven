@@ -1,4 +1,4 @@
-import uuid
+import math
 class mobs:
     def __init__(self,name,attack):
         self.name=name
@@ -72,9 +72,29 @@ shadow_javalin = 40
 shadow_hurricane = 40
 shadow_metheor= 50
 
-def mobs(shadow_soldier,shadow_golem,shadow_giants):
-     if mobs== shadow_soldier:
-          print("shadow_slash:10")
+def get_input():
+    attack= shadowslash_attack,shadowbomb_attack,shadowslam_attack,shadow_pierce,shadow_blast,shadow_shield_smash,shadow_javalin,shadow_hurricane,shadow_metheor
+    while attack in[shadowslash_attack,shadowbomb_attack,shadowslam_attack,shadow_pierce,shadow_blast,shadow_shield_smash,shadow_javalin,shadow_hurricane,shadow_metheor]:
+        if attack== shadowslash_attack:
+            print("shadowslash -10 hp")
+        elif attack==shadowbomb_attack:
+            print("shadowbomb -15 hp")
+        elif attack== shadowslam_attack:
+            print("shadowslam -25 hp")
+        elif attack== shadow_pierce:
+            print("shadowslash -25 hp")
+        elif attack== shadow_blast:
+            print("shadowblast -30 hp")
+        elif attack== shadow_shield_smash:
+            print("shadow sheild smash -35 hp")
+        elif attack== shadow_javalin:
+            print("shadow javelin -40 hp")
+        elif attack== shadow_hurricane:
+            print("shadow hurricane -40 hp")
+        elif attack== shadow_metheor:
+            print("shadow metheor -50 hp")
+
+
 
 
      
