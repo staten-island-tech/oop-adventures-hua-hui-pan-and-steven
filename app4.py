@@ -121,6 +121,9 @@ shadow_metheor = 50
 
 
 
+silver_sword = []
+gold_sword = []
+diamond_sword =[]
 
 class sword:
     def __init__(self,swordsmaster):
