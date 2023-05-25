@@ -1,6 +1,16 @@
 import uuid
 
+import Game
+start = Game
+get_input()
 
+
+
+
+
+swordsmaster =[]
+mage = []
+beserker = []
 
 class user:
     def __init__(self, name):
@@ -25,6 +35,13 @@ class beserker(user):
    def __str__(self):
       return f"{self.name}, {self.axe}"
 
+
+
+
+
+shadow_soldiers = []
+shadow_golem = []
+shadow_giants = []
 
 import uuid
 class mobs:
@@ -202,10 +219,7 @@ diamond_smash = 50
 
 
 
-import Game
 
-start = Game
-get_input()
 
 
 print("Start the adventure!")
