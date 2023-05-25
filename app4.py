@@ -156,6 +156,11 @@ gold_slash = 15
 diamond_slash = 25
 
 
+
+silver_staff = []
+gold_staff = []
+diamond_staff = []
+
 class staff:
     def __init__(self, mage):
         self.mage = mage
@@ -186,6 +191,11 @@ silver_shot = 5
 gold_shot = 10
 diamond_shot = 20
 
+
+
+silver_axe = []
+gold_axe = []
+diamond_axe = []
 
 class axe:
     def __init__(self, beserker):
