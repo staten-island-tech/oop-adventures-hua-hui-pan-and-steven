@@ -18,7 +18,8 @@ class shadow_castle_second_floor(area):
     def __str__(self):
         return f"{self.name},{self.location}"
     
-
+shadow_castle = area('shadow castle')
+print('Welcome to shadow castle')
 
 
 
