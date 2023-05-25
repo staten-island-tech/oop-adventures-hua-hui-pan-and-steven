@@ -323,3 +323,4 @@ def get_input(beserker):
             print("gold_smash -35 hp enemy")
         if attack == diamond_smash:
             print("diamond_smash -50 hp enemy")
+
