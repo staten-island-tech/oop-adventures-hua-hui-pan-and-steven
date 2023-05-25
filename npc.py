@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 import math
+=======
+
+>>>>>>> Stashed changes
 class mobs:
     def __init__(self,name,attack):
         self.name=name
