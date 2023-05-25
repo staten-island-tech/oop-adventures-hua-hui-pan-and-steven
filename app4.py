@@ -1,11 +1,4 @@
-import uuid
-
-import Game
-start = Game
-get_input()
-
-
-
+import math
 
 
 swordsmaster =[]
