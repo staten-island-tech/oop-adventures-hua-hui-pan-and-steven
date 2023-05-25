@@ -82,6 +82,11 @@ Hp=150
 
 
 
+
+shadow_general = []
+shadow_guardian =[]
+shadow_king = []
+
 class bosses:
      def __init__(self, name, attack):
           self.name = name
