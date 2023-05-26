@@ -324,3 +324,19 @@ def get_input(beserker):
         if attack == diamond_smash:
             print("diamond_smash -50 hp enemy")
 
+
+print('Welcome to shadow castle')
+    
+beat_boss = []
+beat_shadow_king = []
+defeated = []
+
+def get_input():
+    battle = ""
+    while battle in [beat_boss, beat_shadow_king, defeated]:
+        if battle == beat_boss:
+            print("Victory! Head to the next area.")
+        if battle == beat_shadow_king:
+            print("Horray! You beated the game! Congragulations!")
+        if battle == defeated:
+            print("You lose. Play again?")
