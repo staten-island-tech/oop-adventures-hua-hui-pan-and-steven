@@ -1,8 +1,5 @@
-<<<<<<< Updated upstream
-import math
-=======
 
->>>>>>> Stashed changes
+import math
 class mobs:
     def __init__(self,name,attack):
         self.name=name
@@ -97,7 +94,7 @@ def get_input():
             print("shadow hurricane -40 hp")
         elif attack== shadow_metheor:
             print("shadow metheor -50 hp")
-
+get_input()
 
 
 
