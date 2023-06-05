@@ -5,7 +5,7 @@ class User:
     def __init__(self, id, name):
         self.name = name
         self.id = id
-        self.health = 100
+        self.health = 150
 
     def choose_attack(self):
         raise NotImplementedError("Subclasses must implement choose_attack method.")
@@ -50,7 +50,7 @@ class Mob:
     def __init__(self, name, attack):
         self.name = name
         self.attack = attack
-        self.health = 100
+        self.health = 150
 
     def choose_move(self):
         raise NotImplementedError("Subclasses must implement choose_move method.")
@@ -179,6 +179,7 @@ while add_more_users == "y":
         print("Invalid user type.")
     still_continue = input("Would you like to add more characters? (y/n): ").lower()
     add_more_users = still_continue
+    print("welcome to the shadow castle")
 
 chosen_user = random.choice(swordsmasters + mages + berserkers)
 print(f"{chosen_user.name}, choose your attack:")
@@ -187,7 +188,7 @@ print(f"{chosen_user.name} uses {chosen_attack}!")
 
 # Define calculate_damage function
 def calculate_damage(attack):
-    return random.randint(10, 20)
+    return random.randint(10, 45)
 
 mobs = [ShadowSoldiers("Shadow Soldiers", "Normal Attack", "Shadow Slash"),
         ShadowGolem("Shadow Golem", "Normal Attack", "Shadow Slash", "Shadow Bomb"),

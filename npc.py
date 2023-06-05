@@ -1,9 +1,9 @@
 
-import math
 class mobs:
-    def __init__(self,name,attack):
+    def __init__(self,name,attack,):
         self.name=name
         self.attack=attack
+        self.health=150
 
 class shadow_soldiers(mobs):
     def __init__(self,name,attack,shadowslash):
@@ -31,9 +31,7 @@ shadowslash_attack= 10
 shadowbomb_attack= 25
 shadowslam_attack= 40
 
-Hp=50
-Hp=75
-Hp=100
+
 
 class bosses:
      def __init__(self, name, attack):
@@ -62,9 +60,7 @@ class shadow_king(bosses):
           self.shadow_metheor = shadow_metheor
     def __str__(self):
          return f"{self.name},{self.attack},{self.shadow_hurricane},{self.shadow_blast},{self.shadow_metheor}"
-Hp=125
-Hp=150
-Hp=180
+
 
 shadow_pierce = 25
 shadow_blast = 30
