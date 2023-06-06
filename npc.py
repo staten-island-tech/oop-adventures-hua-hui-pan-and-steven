@@ -1,4 +1,4 @@
-import uuid
+
 class mobs:
     def __init__(self,name,attack):
         self.name=name
@@ -30,9 +30,7 @@ shadowslash_attack= 10
 shadowbomb_attack= 25
 shadowslam_attack= 40
 
-Hp=50
-Hp=100
-Hp=150
+
 
 
 
