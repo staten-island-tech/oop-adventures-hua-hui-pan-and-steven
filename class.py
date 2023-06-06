@@ -1,4 +1,4 @@
-import uuid
+
 class user:
    def __init__(self,name,health,strength):
       self.name=name

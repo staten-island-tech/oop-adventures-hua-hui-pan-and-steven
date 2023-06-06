@@ -5,12 +5,12 @@ class weapon:
         self.weapon=weapon
 
 class longsword(weapon):
-    def __init__(self,attack,weapon,piercestab):
+    def __init__(self,attack,weapon,slash,thrust,parry):
         super().__init__(attack,weapon)
-        self.piercestab=piercestab
-    
-    
-    
+        self.slash=slash
+        self.thrust=thrust
+        self.parry=parry
+
 class greatstaff(weapon): 
     def __init__(self,attack,weapon,frostbolt,fireball,arcanemissile):
         super().__init__(self,attack ,weapon)

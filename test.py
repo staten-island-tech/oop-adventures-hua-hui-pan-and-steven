@@ -188,7 +188,7 @@ print(f"{chosen_user.name} uses {chosen_attack}!")
 
 # Define calculate_damage function
 def calculate_damage(attack):
-    return random.randint(10, 45)
+    return random.randint(10, 50)
 
 mobs = [ShadowSoldiers("Shadow Soldiers", "Normal Attack", "Shadow Slash"),
         ShadowGolem("Shadow Golem", "Normal Attack", "Shadow Slash", "Shadow Bomb"),
